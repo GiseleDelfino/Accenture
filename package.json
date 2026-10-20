@@ -1,0 +1,23 @@
+{
+  "name": "accenture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^28.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "@cucumber/cucumber": "^13.3.0",
+    "cypress": "^16.2.0",
+    "cypress-mochawesome-reporter": "^5.0.0",
+    "cypress-real-events": "^1.15.1",
+    "esbuild": "^0.28.2"
+  },
+  "allowScripts": {
+    "cypress@16.2.0": true
+  }
+}
